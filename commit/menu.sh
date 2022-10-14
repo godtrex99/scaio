@@ -112,12 +112,15 @@ echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                     ⇱ Script By Papa ⇲                      \E[0m"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-read -p "Select From Options [ 1 - 14 ] : " menu
+echo -e "Select From Options [ 1 - 14 ]
+echo -e ""
 echo -e "CTRL + C For Exit Menu
+echo -e ""
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                     ⇱ Script By Papa ⇲                      \E[0m"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
+read -p "Select From Options [ 1 - 14 ] : " menu
 case $menu in
 1)
 clear
