@@ -112,7 +112,6 @@ echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                     ⇱ Script By Papa ⇲                      \E[0m"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "${RED}•Press CTRL + C For Exit Menu•${NC}
-echo -e ""
 read -p "Select From Options [ 1 - 14 ] : " menu
 case $menu in
 1)
