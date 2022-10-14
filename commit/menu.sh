@@ -117,9 +117,7 @@ echo -e ""
 echo -e "□ Press CTRL+C To Exit Menu
 echo -e ""
 echo -e "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-
 echo -e ""
-
 read -p "Select From Options [ 1 - 14 ] : " menu
 case $menu in
 1)
