@@ -109,16 +109,15 @@ echo -e " [${GREEN}06${NC}]${RED} •${NC} Running Service $NC   [${GREEN}13${NC
 echo -e " [${GREEN}07${NC}]${RED} •${NC} Certificate SSL $NC   [${GREEN}14${NC}]${RED} • ${NC}RESTORE DATA $NC"
 echo -e " ${RED}"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m                     ⇱ P a p a B e a r ⇲                      \E[0m"
+echo -e "\E[44;1;39m                     ⇱ Script By Papa ⇲                      \E[0m"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e ""
-echo -e "□ Press CTRL+C To Exit Menu
-echo -e ""
-echo -e "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e ""
 read -p "Select From Options [ 1 - 14 ] : " menu
+echo -e "CTRL + C For Exit Menu
+echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "\E[44;1;39m                     ⇱ Script By Papa ⇲                      \E[0m"
+echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e ""
 case $menu in
 1)
 clear
